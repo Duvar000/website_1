@@ -1,0 +1,14 @@
+#navbar{
+    flex-direction: column;
+    padding-top: 0.5rem ;
+    padding-bottom: 0.5rem ;
+}
+.border-nav{
+    padding: 0.5rem;   
+    border-right: 0px solid #fff;
+}
+#home .text p{
+    opacity: 0.7;
+    font-size: 0.75rem;
+    font-style: italic;
+}

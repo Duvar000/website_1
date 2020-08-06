@@ -1,0 +1,72 @@
+.slider{
+
+    overflow: hidden;
+    position: relative;
+    width:  20rem;
+    height: 15rem;
+    margin: 1rem;
+    /* border: 1px solid red; */
+}
+.animation-slider{
+    position: absolute;
+    width: 500%;
+    left: 0;
+}
+.animation-slider{
+    width: 600%;
+    height: 600%;
+    position: relative;
+    animation-name: animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes animation{
+    0%  {left:0rem;}
+    10% {left:0rem;}
+    20% {left:-20rem;}
+    30% {left:-20rem;}
+    40% {left:-40.5rem;}
+    50% {left:-40.5rem;}
+    60% {left:-61rem;}
+    70% {left:-61rem;}
+    80% {left:-81rem;}
+    90% {left:-81rem;}
+}
+@-moz-keyframes animation{
+    0%  {left:0rem;}
+    10% {left:0rem;}
+    20% {left:-20rem;}
+    30% {left:-20rem;}
+    40% {left:-40.5rem;}
+    50% {left:-40.5rem;}
+    60% {left:-61rem;}
+    70% {left:-61rem;}
+    80% {left:-81rem;}
+    90% {left:-81rem;}
+}
+@-ms-keyframes animation{
+    0%  {left:0rem;}
+    10% {left:0rem;}
+    20% {left:-20rem;}
+    30% {left:-20rem;}
+    40% {left:-40.5rem;}
+    50% {left:-40.5rem;}
+    60% {left:-61rem;}
+    70% {left:-61rem;}
+    80% {left:-81rem;}
+    90% {left:-81rem;}
+}
+@keyframes animation{
+    0%  {left:0rem;}
+    10% {left:0rem;}
+    20% {left:-20rem;}
+    30% {left:-20rem;}
+    40% {left:-40.5rem;}
+    50% {left:-40.5rem;}
+    60% {left:-61rem;}
+    70% {left:-61rem;}
+    80% {left:-81rem;}
+    90% {left:-81rem;}
+}
+ 
